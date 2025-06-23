@@ -15,7 +15,11 @@ body {
     height: 60px;
 }
 
-.navbar .container, .hero .container, .boxes .container {
+.hero, .boxes, .quote {
+    height: 500px;
+}
+
+.navbar .container, .hero .container, .boxes .container, .quote .container {
     display: flex;
     width: 80%;
     margin: auto;
@@ -25,14 +29,9 @@ body {
     padding: 10px;
 }
 
-.hero .container {
-    height: 500px;
-}
-
 .hero .text {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     max-width: 450px;
     align-items: flex-start;
     gap: 10px;
@@ -43,10 +42,36 @@ body {
 }
 
 .boxes .container {
-    flex-wrap: wrap;
     padding: 40px;
     gap: 20px;
-    height: 500px;;
+}
+
+.boxes .container, .quote .container {
+    flex-wrap: wrap;
+}
+
+.quote .container {
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.quote .attribution {
+    width: 72%;
+    text-align: end;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.quote .text {
+    width: 71%;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote {
+    background-color: #E5E7EB;
 }
 
 .boxes h2 {
@@ -54,8 +79,6 @@ body {
     width: 100%;
     justify-content: center;
     font-size: 36px;
-    color: #1F2937;
-    font-weight: 900;
 }
 
 .boxes .box-container {
@@ -88,6 +111,10 @@ body {
     background-color: #1F2937;
 }
 
+.boxes h2, .quote text {
+    color: #1F2937;
+}
+
 .navbar .logo {
     font-size: 24px;
 }
@@ -118,7 +145,6 @@ body {
 
 .text h1 {
     font-size: 48px;
-    font-weight: 900;
 }
 
 .text button {
