@@ -1,2 +1,4 @@
 # project-landing-page
 Odin landing page project
+
+Doing this project i practiced my flexbox knowledge, i really enjoy it, looking forward to time when i will have clear strategy and steps to take in order to achieve something with certain section, because at this moment its kinda chaotic, but maybe its excitement doing its job, because after a break i came back with clear mind and could tackle last sections such as CTA and footer calmly and with confidence, whereas other sections were done with some sort of chaos in my head wanting to do everything perfectly, a bit of jumping back and forth, but i feel im on the right path, to becoming good developer.
